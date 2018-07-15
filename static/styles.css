@@ -1,0 +1,54 @@
+@media (max-width: 500px) {
+  table {
+    display: none;
+  }
+}
+.date_3, .date_2, .date_1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  width: 75%;
+  margin-bottom: 25px;
+  border-radius: 4px;
+}
+
+.date_1 {
+  background-color: lightgray;
+}
+
+.date_2 {
+  background-color: gray;
+}
+
+.date_3 {
+  background-color: darkgray;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+}
+
+table, hr, .post, .postheadline {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+tbody li:first-child {
+  font-weight: bold;
+}
+
+.borderless td, .borderless th {
+  border: none;
+}
+
+#bottom-div {
+  margin-bottom: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

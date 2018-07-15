@@ -1,0 +1,61 @@
+$margin: 50px;
+
+@media (max-width: 500px){
+    table {
+        display:none;
+    }
+}
+
+%date {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    width: 75%;
+    margin-bottom: $margin / 2;
+    border-radius: 4px;
+}
+
+.date_1 {
+    @extend %date;
+    background-color: lightgray
+}
+
+.date_2 {
+    @extend %date;
+    background-color: gray
+}
+
+.date_3 {
+    @extend %date;
+    background-color: darkgray
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    
+}
+
+table, hr, .post, .postheadline {
+    margin-top: $margin;
+    margin-bottom: $margin;
+}
+
+tbody {
+    li:first-child {
+        font-weight: bold;
+    }
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+#bottom-div {
+    margin-bottom: $margin * 2;
+}
